@@ -1,0 +1,9 @@
+/* Mostrar si el número escrito por el usuario es par o Impar en Swift*/
+var num : Int
+print ("Digita un número")
+num = Int(readLine()!)!
+if num % 2 == 0 {
+print("El número \(num) digitado es par")
+}else {
+  print("El número \(num) digitado es impar")
+}
